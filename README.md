@@ -1,6 +1,6 @@
 # nrepl-doc-inject
 
-[![CircleCI](https://circleci.com/gh/tatut/nrepl-doc-inject.svg?style=svg)](https://circleci.com/gh/tatut/nrepl-doc-inject) [![PR welcome](https://img.shields.io/badge/pull%20requests-welcome-green.svg)]
+[![CircleCI](https://circleci.com/gh/tatut/nrepl-doc-inject.svg?style=svg)](https://circleci.com/gh/tatut/nrepl-doc-inject) ![PR welcome](https://img.shields.io/badge/pull%20requests-welcome-green.svg)
 
 My stab at improving Clojure docstrings. NREPL middleware to load community
 docstrings and inject them.
