@@ -3,6 +3,7 @@ My stab at improving Clojure docstrings
 
 # How to use
 
+* Clone this and `lein install` it (not on clojars yet)
 * Add dependency to project dev or user profile `[nrepl-doc-inject "0.1-SNAPSHOT"]`
 * Add middleware to :repl-options / :nrepl-middleware
 
