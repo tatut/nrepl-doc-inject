@@ -14,6 +14,9 @@ My stab at improving Clojure docstrings
   :repl-options {:nrepl-middleware [nrepl-doc-inject.core/doc-middleware]})
 ```
 
+![use in cider](https://raw.githubusercontent.com/tatut/nrepl-doc-inject/master/images/reify.png)
+
+
 # How to contribute
 
 All namespace vars are in the same file under `docs` folder with the `.edn` suffix.
