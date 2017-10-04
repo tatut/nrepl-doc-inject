@@ -10,7 +10,12 @@ Example:
 ;; Create an implementing interface with reify
 (def impl (reify 
             MakeANoise ;; protocol to implement
-            (make-a-noise [_] "hello from reify")))
+            (make-a-noise [_] \"hello from reify\")))
             
-(make-a-noise impl) ;; => \"hello from reify\""}}
+(make-a-noise impl) ;; => \"hello from reify\"
+  
+You can have multiple protocols and methods in 
+the same reify call. All methods must have this
+as the first argument even though there is no
+object associated with the instance."}}
              
