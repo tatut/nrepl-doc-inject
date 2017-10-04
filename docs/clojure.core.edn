@@ -1,6 +1,6 @@
 {"reify"
- {:arglists-str "[& protocols-and-methods]"
-  :doc "Return a new ad hoc instance that implements given protocols.
+ {"arglists-str" "[& protocols-and-methods]"
+  "doc" "Return a new ad hoc instance that implements given protocols.
 
 Example: 
 ;; Define a protocol
