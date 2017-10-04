@@ -1,0 +1,16 @@
+{"reify"
+ {:arglists-str "[& protocols-and-methods]"
+  :doc "Return a new ad hoc instance that implements given protocols.
+
+Example: 
+;; Define a protocol
+(defprotocol MakeANoise
+  (make-a-noise [this]))
+  
+;; Create an implementing interface with reify
+(def impl (reify 
+            MakeANoise ;; protocol to implement
+            (make-a-noise [_] "hello from reify")))
+            
+(make-a-noise impl) ;; => \"hello from reify\""}}
+             
